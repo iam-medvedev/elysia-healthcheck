@@ -1,7 +1,7 @@
 {
   "name": "elysia-healthcheck",
   "version": "1.0.0",
-  "description": "Healthcheck plugin for elysia.js",
+  "description": "Healthcheck plugin for Elysia.js",
   "repository": "https://github.com/iam-medvedev/elysia-healthcheck.git",
   "homepage": "https://github.com/iam-medvedev/elysia-healthcheck#readme",
   "bugs": "https://github.com/iam-medvedev/elysia-healthcheck/issues",
@@ -14,7 +14,10 @@
     "package.json"
   ],
   "keywords": [
-    "elysia", "healthcheck", "health", "check"
+    "elysia",
+    "healthcheck",
+    "health",
+    "check"
   ],
   "exports": {
     "types": "./dist/index.d.ts",
@@ -29,6 +32,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@elysiajs/eden": "^1.4.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/github": "^11.0.6",

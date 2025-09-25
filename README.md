@@ -19,7 +19,7 @@ Healthcheck plugin for [Elysia.js](https://elysiajs.com) that provides configura
 
 ## Installation
 
-```bash
+```sh
 bun add elysia-healthcheck elysia
 # or
 npm install elysia-healthcheck elysia
